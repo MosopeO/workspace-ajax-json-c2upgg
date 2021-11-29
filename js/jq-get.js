@@ -11,6 +11,7 @@ $('#clickcheck').blur(function () {
   $.get(remoteaddr, requestData)
     .done(function (data) {
       console.log(data);
+      
     })
     .fail(function () {
       alert('get request failed'); //data will still be saved
